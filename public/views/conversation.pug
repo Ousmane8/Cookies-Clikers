@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    link(rel='stylesheet', href='../css/bootstrap.min.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css', integrity='sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4', crossorigin='anonymous')
+    link(rel='stylesheet', href='../css/conversation.css')
+    title Conversation
+    style.
+  body#logged-out
+    section#chat
+      ul#messages
+      ul#users
+      form(action='')
+        input#m(autocomplete='off')
+        button Envoyer
+    section#login
+      form(action='')
+        label(for='u') Nom
+        input#u(autocomplete='off', autofocus='')
+        p
+          button Connexion
+    script(src='../js/jquery.min.js') 
+    script(src='http://code.jquery.com/jquery-1.11.1.js')
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js', integrity='sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ', crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js', integrity='sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm', crossorigin='anonymous')
+    script(src='/socket.io/socket.io.js')
+    script(src='/js/client.js')
+    script(src='../js/bootstrap/bootstrap.min.js')
+    

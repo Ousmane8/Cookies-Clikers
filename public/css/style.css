@@ -1,0 +1,172 @@
+body{
+	background: grey;
+	background-image: url("../img/fond.jpg")
+}
+/*DONUT*/
+#border{
+    border: 5px solid orange;
+    width: 75%;
+    margin: 2% auto; 
+}
+img {
+	height: 190px;
+}
+
+.btn3d {
+    position:relative;
+    top: -6px;
+    border:0;
+     transition: all 40ms linear;
+     margin-top:10px;
+     margin-bottom:10px;
+     margin-left:2px;
+     margin-right:2px;
+}
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+         outline:medium none;
+}
+.btn3d:active, .btn3d.active {
+    top:1px;
+}
+.btn3d.btn-conversation {
+    box-shadow:0 0 0 1px #31c300 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#78d739;
+}
+.btn3d.btn-conversation:active, .btn3d.btn-conversation.active {
+    box-shadow:0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #78d739;
+}
+.btn3d.btn-logout {
+    box-shadow:0 0 0 1px #b93802 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #AA0000, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#D73814;
+}
+.btn3d.btn-logout:active, .btn3d.btn-logout.active {
+    box-shadow:0 0 0 1px #b93802 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #D73814;
+}
+
+
+a {
+    color: #fffb00;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.utilisateur{
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color :whitesmoke;
+}
+/*DONUT FIN*/
+
+/*CONNEXION*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html .login-wrap {
+    position: relative;
+    margin: 25% auto;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 15px;
+  }
+  html #CO.login-wrap {
+    position: relative;
+    margin: 35% auto;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 15px;
+  }
+
+  html .login-wrap h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2em;
+    margin-top: 10px;
+    color: #34495e;
+  }
+  html .login-wrap .form {
+    padding-top: 20px;
+  }
+  html .login-wrap .form input[type="text"],
+  html .login-wrap .form input[type="password"],
+  html .login-wrap .form button {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 25px;
+    height: 40px;
+    border-radius: 5px;
+    outline: 0;
+  }
+  html .login-wrap .form input[type="text"],
+  html .login-wrap .form input[type="password"] {
+    border: 1px solid #bbb;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+  }
+  html .login-wrap .form input[type="text"]:focus,
+  html .login-wrap .form input[type="password"]:focus {
+    border: 1px solid #3498db;
+  }
+  html .login-wrap .form a {
+    text-align: center;
+    font-size: 10px;
+    color: #3498db;
+  }
+  html .login-wrap .form a p {
+    padding-bottom: 10px;
+  }
+  html .login-wrap .form button {
+    background:deepskyblue;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: box-shadow 0.4s ease;
+  }
+  html .login-wrap .form .lol {
+    background:yellowgreen;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: box-shadow 0.4s ease;
+  }
+  html .login-wrap .form button:hover {
+    box-shadow: 1px 1px 5px #555;
+  }
+  html .login-wrap .form button:active {
+    box-shadow: 1px 1px 7px #222;
+  }
+  html .login-wrap:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-linear-gradient(left, #27ae60 0%, #27ae60 20%, #8e44ad 20%, #8e44ad 40%, #3498db 40%, #3498db 60%, #e74c3c 60%, #e74c3c 80%, #f1c40f 80%, #f1c40f 100%);
+    background: -moz-linear-gradient(left, #27ae60 0%, #27ae60 20%, #8e44ad 20%, #8e44ad 40%, #3498db 40%, #3498db 60%, #e74c3c 60%, #e74c3c 80%, #f1c40f 80%, #f1c40f 100%);
+    height: 5px;
+    border-radius: 5px 5px 0 0;
+  }
+
+/* INSCRIPTION*/
+.panel-default > .panel-heading {
+    background: #e0c070;
+
+    border-bottom:0px; }
+
+.panel-default{
+    border:1px solid black;
+}
+  

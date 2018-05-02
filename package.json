@@ -1,0 +1,25 @@
+{
+    "name": "cliquer",
+    "version": "1.0.0",
+    "description": "Notre cliqueur <DONUT>",
+    "main": "app.js",
+    "scripts": {
+        "start": "node ./app.js",
+        "watch": "nodemon app && mongod"
+    },
+    "keywords": [],
+    "author": "JOISA",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^2.0.1",
+        "body-parser": "^1.18.2",
+        "connect-mongo": "^2.0.1",
+        "ent": "^2.2.0",
+        "express": "^4.16.2",
+        "express-session": "^1.15.6",
+        "mongoose": "^5.0.16",
+        "nodemon": "^1.17.3",
+        "pug": "^2.0.3",
+        "socket.io": "^2.1.0"
+    }
+}
